@@ -27,9 +27,9 @@ import fivver from "./company/fivver.png";
 import up from "./company/up.png";
 import tribus from "./company/tribus.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import electronix from "./electronix.png";
+import realestate from "./realestate.png";
+import dashboard from "./dashboard.png";
 
 export {
   logo,
@@ -58,7 +58,7 @@ export {
   fivver,
   up,
   tribus,
-  carrent,
-  jobit,
-  tripguide,
+  electronix,
+  realestate,
+  dashboard,
 };

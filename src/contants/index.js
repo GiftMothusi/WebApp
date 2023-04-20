@@ -19,9 +19,9 @@ import {
   nsg,
   up,
   tribus,
-  carrent,
-  jobit,
-  tripguide,
+  electronix,
+  realestate,
+  dashboard,
   threejs,
 } from "../assets";
 
@@ -223,9 +223,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Electronix E-commerce",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search and buy electronic devices online and have them delivered at the comfort of their homes.",
     tags: [
       {
         name: "react",
@@ -240,13 +240,14 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: electronix,
     source_code_link: "https://github.com/",
+    link: "https://electronix.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Real Estate",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to search for avilable property listings to rent or buy using a save and convenient online format.",
     tags: [
       {
         name: "react",
@@ -261,13 +262,14 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: realestate,
     source_code_link: "https://github.com/",
+    link: "https://realtor-properties.netlify.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Management Dashboard",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A highly scalable management dashboard that allows a company to analayze its business data, as well as interact with its customers when using their platform.",
     tags: [
       {
         name: "nextjs",
@@ -282,8 +284,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: dashboard,
     source_code_link: "https://github.com/",
+    link: "https://ecommercemanagement-dashboard.netlify.app/",
   },
 ];
 
