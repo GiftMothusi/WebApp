@@ -12,9 +12,8 @@ import {
   tailwind,
   nodejs,
   mongodb,
+  mysql,
   git,
-  figma,
-  docker,
   fivver,
   eoh,
   nsg,
@@ -98,20 +97,16 @@ const technologies = [
     icon: mongodb,
   },
   {
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
     name: "Three JS",
     icon: threejs,
   },
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
