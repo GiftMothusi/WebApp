@@ -69,7 +69,7 @@ const Contact = () => {
           onSubmit={handleSubmit}
           className="mt-12 flex flex-col gap-8"
         >
-          <lable className="flex flex-col">
+          <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your name</span>
             <input
               type="text"
@@ -79,7 +79,7 @@ const Contact = () => {
               placeholder="Enter your name"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
-          </lable>
+          </label>
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Email</span>
             <input

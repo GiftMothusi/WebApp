@@ -66,6 +66,7 @@ const ComputerCanvas = () => {
       <Suspense fallback={<CanvasLoader />}>
         {/*These controls allow users to play with the model, however only be able to rotate on a singluar plane/axis */}
         <OrbitControls
+          autoRotate
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
