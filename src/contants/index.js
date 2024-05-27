@@ -23,6 +23,8 @@ import {
   realestate,
   dashboard,
   threejs,
+  promilezi,
+  apple_clone,
 } from "../assets";
 
 export const navLinks = [
@@ -111,6 +113,24 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Front-end Developer",
+    company_name: "Promilezi",
+    icon: promilezi,
+    iconBg: "#FFFFFF",
+    date: "May 2024 - Till present",
+    points: [
+      "Developed and maintained front-end components for in house web applications",
+      "Implemented responsive design principles to ensure optimal performance across various devices and screen sizes",
+      "Collaborated with back-end developers and integrate front-end code with server-side logic and UI/UX designs",
+      "Conducted code reviews and provided constructive feedback to team members to improve code quality and maintainability",
+      "Optimised website performance by analysing and optimising page load times",
+      "Participated in Agile development processes, including sprint planning, daily stand-ups, and retrospectives",
+      "Conducted research and explored emerging front-end technologies and best practices to enhance team productivity and project outcomes",
+      "Assisted in the development of new features and enhancements under the guidance of senior developers",
+    ],
+  },
+
   {
     title: "Desktop Technician",
     company_name: "EOH",
@@ -287,6 +307,28 @@ const projects = [
     image: dashboard,
     source_code_link: "https://github.com/",
     link: "https://ecommercemanagement-dashboard.netlify.app/",
+  },
+  {
+    name: "Apple Website Clone",
+    description:
+      "The following is a Apple website landing page clone. This project mainly aims to show skills and understanding of working with fluid animations on react (GSAP)",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: apple_clone,
+    source_code_link: "https://github.com/",
+    link: "https://bigapplestore.netlify.app/",
   },
 ];
 

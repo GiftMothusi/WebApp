@@ -21,6 +21,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import promilezi from "./company/promilezi.png";
 import eoh from "./company/eoh.png";
 import nsg from "./company/nsg.png";
 import fivver from "./company/fivver.png";
@@ -30,6 +31,7 @@ import tribus from "./company/tribus.png";
 import electronix from "./electronix.png";
 import realestate from "./realestate.png";
 import dashboard from "./dashboard.png";
+import apple_clone from "./apple_bg.jpeg";
 
 export {
   logo,
@@ -53,6 +55,7 @@ export {
   tailwind,
   typescript,
   threejs,
+  promilezi,
   eoh,
   nsg,
   fivver,
@@ -61,4 +64,5 @@ export {
   electronix,
   realestate,
   dashboard,
+  apple_clone,
 };
