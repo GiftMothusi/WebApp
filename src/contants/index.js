@@ -261,7 +261,7 @@ const projects = [
       },
     ],
     image: electronix,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/GiftMothusi",
     link: "https://electronix.vercel.app/",
   },
   {
@@ -283,7 +283,7 @@ const projects = [
       },
     ],
     image: realestate,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/GiftMothusi",
     link: "https://realtor-properties.netlify.app/",
   },
   {
@@ -305,7 +305,7 @@ const projects = [
       },
     ],
     image: dashboard,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/GiftMothusi",
     link: "https://ecommercemanagement-dashboard.netlify.app/",
   },
   {
@@ -327,8 +327,8 @@ const projects = [
       },
     ],
     image: apple_clone,
-    source_code_link: "https://github.com/",
-    link: "https://bigapplestore.netlify.app/",
+    source_code_link: "https://github.com/GiftMothusi",
+    link: "https://iphoneclonestore.netlify.app/",
   },
 ];
 
